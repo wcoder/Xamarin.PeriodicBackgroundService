@@ -6,7 +6,6 @@ Simple implementation of periodic background service with Xamarin.
 
 - [x] Xamarin.Android
 - [ ] Xamarin.iOS
-- [ ] UWP 
 
 ---
 &copy; Yauheni Pakala | MIT
