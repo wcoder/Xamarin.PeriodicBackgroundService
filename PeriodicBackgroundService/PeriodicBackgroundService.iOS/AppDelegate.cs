@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using System;
+using Foundation;
 using UIKit;
 
 namespace PeriodicBackgroundService.iOS
@@ -8,27 +9,51 @@ namespace PeriodicBackgroundService.iOS
 	[Register("AppDelegate")]
 	public class AppDelegate : UIApplicationDelegate
 	{
-		// class-level declarations
-
-		public override UIWindow Window
-		{
-			get;
-			set;
-		}
+		public override UIWindow Window { get; set; }
 
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
 			// create a new window instance based on the screen size
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
-
 			// If you have defined a root view controller, set it here:
 			// Window.RootViewController = myViewController;
-
 			// make the window visible
 			Window.MakeKeyAndVisible();
 
+
+/////////////////////////////////////////////////////////////
+
+			UIApplication.SharedApplication.SetMinimumBackgroundFetchInterval(UIApplication.BackgroundFetchIntervalMinimum);
+
+			if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0))
+			{
+				var notificationSettings = UIUserNotificationSettings.GetSettingsForTypes(
+					UIUserNotificationType.Badge, null
+				);
+
+				application.RegisterUserNotificationSettings(notificationSettings);
+			}
+
+/////////////////////////////////////////////////////////////
+
 			return true;
 		}
+
+/////////////////////////////////////////////////////////////
+		public override void PerformFetch(UIApplication application, Action<UIBackgroundFetchResult> completionHandler)
+		{
+			try
+			{
+				// Check for new data, and display it
+				
+				completionHandler(UIBackgroundFetchResult.NewData);
+			}
+			catch (Exception)
+			{
+				completionHandler(UIBackgroundFetchResult.NoData);
+			}
+		}
+/////////////////////////////////////////////////////////////
 
 		public override void OnResignActivation(UIApplication application)
 		{
