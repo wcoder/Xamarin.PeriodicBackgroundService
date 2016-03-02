@@ -17,5 +17,7 @@ Simple implementation of periodic background service with Xamarin.
 
 `BackgroundFetch`
 
+More details: [Add Background Data Refresh to Your iOS Apps](https://blog.xamarin.com/add-background-data-refresh-to-ios-apps/)
+
 ---
 &copy; Yauheni Pakala | MIT
