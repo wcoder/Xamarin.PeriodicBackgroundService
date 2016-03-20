@@ -13,6 +13,8 @@ Simple implementation of periodic background service with Xamarin.
 
 `AlarmBroadcastReceiver`, `BootBroadcastReceiver`, `Service`
 
+In addition: [Performing Background Data Refresh for Android](https://blog.xamarin.com/performing-background-data-refresh-for-android/)
+
 #### iOS
 
 `BackgroundFetch`
