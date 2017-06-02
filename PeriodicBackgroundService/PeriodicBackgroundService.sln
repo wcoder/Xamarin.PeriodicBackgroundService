@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicBackgroundService", "PeriodicBackgroundService\PeriodicBackgroundService.csproj", "{028864C1-BC49-4A75-8B80-C0D01F7F9826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicBackgroundService.Android", "PeriodicBackgroundService\PeriodicBackgroundService.Android.csproj", "{028864C1-BC49-4A75-8B80-C0D01F7F9826}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicBackgroundService.iOS", "PeriodicBackgroundService.iOS\PeriodicBackgroundService.iOS.csproj", "{BC8F38D0-4B6A-4B97-A1CF-7E32E1BE6873}"
 EndProject

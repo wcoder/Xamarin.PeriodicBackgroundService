@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("PeriodicBackgroundService.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("PeriodicBackgroundService.Android.Resource", IsApplication=true)]
 
-namespace PeriodicBackgroundService
+namespace PeriodicBackgroundService.Android
 {
 	
 	

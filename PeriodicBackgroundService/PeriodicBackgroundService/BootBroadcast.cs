@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content;
 
-namespace PeriodicBackgroundService
+namespace PeriodicBackgroundService.Android
 {
 	[BroadcastReceiver]
 	[IntentFilter(new[] { Intent.ActionBootCompleted })]

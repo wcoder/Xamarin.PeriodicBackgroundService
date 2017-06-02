@@ -1,9 +1,10 @@
-﻿using Android.App;
+﻿using Android;
+using Android.App;
 using Android.Widget;
 using Android.OS;
 using Android.Content;
 
-namespace PeriodicBackgroundService
+namespace PeriodicBackgroundService.Android
 {
 	[Activity(Label = "PeriodicBackgroundService", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity

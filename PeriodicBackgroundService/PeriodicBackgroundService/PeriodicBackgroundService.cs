@@ -5,7 +5,7 @@ using Android.App;
 using Android.Content;
 using Android.Util;
 
-namespace PeriodicBackgroundService
+namespace PeriodicBackgroundService.Android
 {
 	[Service]
 	class PeriodicBackgroundService : Service

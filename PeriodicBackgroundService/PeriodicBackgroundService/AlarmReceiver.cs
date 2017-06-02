@@ -1,6 +1,6 @@
 ﻿using Android.Content;
 
-namespace PeriodicBackgroundService
+namespace PeriodicBackgroundService.Android
 {
 	[BroadcastReceiver]
 	class AlarmReceiver : BroadcastReceiver
