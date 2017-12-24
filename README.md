@@ -14,7 +14,9 @@ Simple implementation of periodic background service with Xamarin.
 
 `AlarmBroadcastReceiver`, `BootBroadcastReceiver`, `Service`
 
-In addition: [Performing Background Data Refresh for Android](https://blog.xamarin.com/performing-background-data-refresh-for-android/)
+In addition:
+- [Performing Background Data Refresh for Android](https://blog.xamarin.com/performing-background-data-refresh-for-android/)
+- [Replacing Services With Jobs in Android Oreo 8.0](https://blog.xamarin.com/replacing-services-jobs-android-oreo-8-0/)
 
 #### iOS
 
