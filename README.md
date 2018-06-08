@@ -18,6 +18,7 @@ In addition:
 - [Performing Background Data Refresh for Android](https://blog.xamarin.com/performing-background-data-refresh-for-android/)
 - [Replacing Services With Jobs in Android Oreo 8.0](https://blog.xamarin.com/replacing-services-jobs-android-oreo-8-0/)
 - [Android JobScheduler - René Ruppert - Xamarin University](https://www.youtube.com/watch?v=aSjBBPYjelE)
+- [Firebase Job Dispatcher: Background Scheduling for all Android Devices](https://blog.xamarin.com/xamarin-android-firebase-job-dispatcher-background-scheduling-android-devices/)
 
 #### iOS
 
