@@ -24,13 +24,16 @@ In addition:
 
 `BackgroundFetch`
 
-More details: [Add Background Data Refresh to Your iOS Apps](https://blog.xamarin.com/add-background-data-refresh-to-ios-apps/)
+In addition:
+- [Add Background Data Refresh to Your iOS Apps](https://blog.xamarin.com/add-background-data-refresh-to-ios-apps/)
+- [Using Background Transfer Service and NSURLSession](https://developer.xamarin.com/guides/ios/application_fundamentals/backgrounding/part_4_ios_backgrounding_walkthroughs/background_transfer_walkthrough/)
 
 #### UWP
 
 `Windows Runtime Component`
 
 More details: [Create and register an out-of-process background task](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-background-task)
+
 
 
 ---
