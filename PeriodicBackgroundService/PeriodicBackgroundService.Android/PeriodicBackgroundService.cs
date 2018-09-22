@@ -34,7 +34,7 @@ namespace PeriodicBackgroundService.Android
 		{
 			_isRunning = false;
 
-			if (_task != null)
+			if (_task != null && _task.Status == TaskStatus.RanToCompletion)
 			{
 				_task.Dispose();
 			}
