@@ -19,6 +19,7 @@ In addition:
 - [Replacing Services With Jobs in Android Oreo 8.0](https://blog.xamarin.com/replacing-services-jobs-android-oreo-8-0/)
 - [Android JobScheduler - René Ruppert - Xamarin University](https://www.youtube.com/watch?v=aSjBBPYjelE)
 - [Firebase Job Dispatcher](https://docs.microsoft.com/en-us/xamarin/android/platform/firebase-job-dispatcher)
+- [Background Jobs Framework for Xamarin & UWP](https://github.com/aritchie/jobs)
 
 #### iOS
 
