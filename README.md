@@ -20,6 +20,7 @@ In addition:
 - [Android JobScheduler - René Ruppert - Xamarin University](https://www.youtube.com/watch?v=aSjBBPYjelE)
 - [Firebase Job Dispatcher](https://docs.microsoft.com/en-us/xamarin/android/platform/firebase-job-dispatcher)
 - [Background Jobs Framework for Xamarin & UWP](https://github.com/aritchie/jobs)
+- [Getting Started With WorkManager](https://devblogs.microsoft.com/xamarin/getting-started-workmanager/) **NEW**
 
 #### iOS
 
