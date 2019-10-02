@@ -24,9 +24,10 @@ In addition:
 
 #### iOS
 
-`BackgroundFetch`
+- [iOS 13 Background Tasks](https://docs.microsoft.com/en-us/samples/xamarin/ios-samples/ios13-refreshingandmaintainingyourappusingbackgroundtasks/)
 
-In addition:
+`BackgroundFetch` - Deprecated in iOS 13
+
 - [Add Background Data Refresh to Your iOS Apps](https://blog.xamarin.com/add-background-data-refresh-to-ios-apps/)
 - [Using Background Transfer Service and NSURLSession](https://developer.xamarin.com/guides/ios/application_fundamentals/backgrounding/part_4_ios_backgrounding_walkthroughs/background_transfer_walkthrough/)
 
